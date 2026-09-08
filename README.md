@@ -31,7 +31,7 @@ Social Science Paste lets you choose independently whether to preserve **Bold**,
 
 - **Bold** — on / off
 - *Italic* — on / off
-- <u>Hyperlinks</u> — on / off
+- [Hyperlinks](https://github.com/warvantage/social-science-paste) — on / off
 - Pause / Resume — temporarily stop clipboard cleaning whenever you need the original copy untouched
 - Launch at Login
 - Language — interface currently available in English and Chinese
@@ -130,9 +130,9 @@ Bug reports, compatibility feedback, and pull requests are welcome. If you encou
 
 Social Science Paste 的核心区别是：你可以分别选择是否保留 **粗体**、*斜体* 和 <u>超链接</u>。三个选项彼此独立，可以任意组合。
 
-- **粗体 Bold** — 开 / 关
-- *斜体 Italic* — 开 / 关
-- <u>超链接 Hyperlinks</u> — 开 / 关
+- **粗体** — 开 / 关
+- *斜体* — 开 / 关
+- [超链接](https://github.com/warvantage/social-science-paste) — on / off
 - 暂停 / 恢复 — 需要暂时保留原始复制内容时，可以随时停止剪贴板清理
 - 登录时自动启动
 - 语言 — 界面目前提供中文和英文两种选择
