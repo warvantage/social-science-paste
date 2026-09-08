@@ -13,9 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/warvantage/social-science-paste/releases/download/v1.0.0/Social-Science-Paste-1.0.0.dmg"><strong>v1.0.0 (Stable)</strong></a>
-  ·
-  <a href="https://github.com/warvantage/social-science-paste/releases/download/v1.0.1-beta/Social-Science-Paste-1.0.1-beta.dmg"><strong>v1.0.1-beta (Word Compatibility)</strong></a>
+  <a href="https://github.com/warvantage/social-science-paste/releases/download/v1.0.2-beta/Social-Science-Paste-1.0.2-beta.dmg"><strong>v1.0.2-beta (HTML Rich Text)</strong></a>
 </p>
 
 ---
@@ -25,13 +23,13 @@
 
 **Social Science Paste is a lightweight macOS clipboard cleaner designed for academic writing.**
 
-Normal paste often keeps too much: fonts, sizes, colours, highlighting, and other source styling. Plain-text paste removes too much: it can also remove *italics*, **bold emphasis**, and hyperlinks that still carry meaning in academic writing.
+Normal paste often keeps too much: fonts, sizes, colours, highlighting, and other source styling. Plain-text paste removes too much: it can also remove *italics*, **bold emphasis**, and [hyperlinks](#how-it-works-en) that still carry meaning in academic writing.
 
-Social Science Paste lets you choose independently whether to preserve **Bold**, *Italic*, and <u>Hyperlinks</u> — in any combination — while removing unwanted presentation styling.
+Social Science Paste lets you choose independently whether to preserve **Bold**, *Italic*, and [Hyperlinks](#how-it-works-en) — in any combination — while removing unwanted presentation styling.
 
 - **Bold** — on / off
 - *Italic* — on / off
-- [Hyperlinks](https://github.com/warvantage/social-science-paste) — on / off
+- [Hyperlinks](#how-it-works-en) — on / off
 - Pause / Resume — temporarily stop clipboard cleaning whenever you need the original copy untouched
 - Launch at Login
 - Language — interface currently available in English and Chinese
@@ -46,6 +44,7 @@ Social Science Paste grew out of that small but persistent problem. Its aim is s
 
 > **Preserve meaning. Remove presentation.**
 
+<a id="how-it-works-en"></a>
 ## How it works
 
 Social Science Paste lives in the macOS menu bar and cleans copied text automatically.
@@ -55,7 +54,7 @@ Social Science Paste lives in the macOS menu bar and cleans copied text automati
 </p>
 
 1. Copy text normally. Social Science Paste detects the new clipboard content and cleans it in the background.
-2. Choose what to keep. **Bold**, *Italic*, and <u>Hyperlinks</u> are independent options and can be combined freely.
+2. Choose what to keep. **Bold**, *Italic*, and [Hyperlinks](#how-it-works-en) are independent options and can be combined freely.
 3. Paste normally with `⌘V`. The destination application keeps using its own native paste command.
 4. Pause whenever needed. When paused, new clipboard content is left untouched; resume the app to continue cleaning future copies.
 
@@ -80,23 +79,15 @@ For supported text and rich-text clipboard content, Social Science Paste rebuild
 | Images / files / PDF objects | Left untouched |
 | Structured tables | Currently left untouched |
 
-## Downloads
+## Download
 
-### v1.0.0 (Stable)
+### v1.0.2-beta (HTML Rich Text)
 
-General text and rich-text clipboard cleaning with independently selectable Bold, Italic, and Hyperlink preservation.
+The current beta improves handling of rich text copied from rendered web pages, including GitHub README content, while retaining the earlier Microsoft Word / Office compatibility improvements.
 
-**[Download Social-Science-Paste-1.0.0.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.0/Social-Science-Paste-1.0.0.dmg)**
+**[Download Social-Science-Paste-1.0.2-beta.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.2-beta/Social-Science-Paste-1.0.2-beta.dmg)**
 
-### v1.0.1-beta (Word Compatibility)
-
-Includes additional compatibility improvements for text copied from Microsoft Word and Office applications.
-
-**[Download Social-Science-Paste-1.0.1-beta.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.1-beta/Social-Science-Paste-1.0.1-beta.dmg)**
-
-If you regularly work in Microsoft Word, the beta is the recommended version to try.
-
-> The current builds are not notarised with an Apple Developer ID. If macOS blocks the first launch, go to **System Settings → Privacy & Security → Open Anyway**.
+> The current build is not notarised with an Apple Developer ID. If macOS blocks the first launch, go to **System Settings → Privacy & Security → Open Anyway**.
 
 ## Privacy
 
@@ -126,20 +117,20 @@ Bug reports, compatibility feedback, and pull requests are welcome. If you encou
 
 **Social Science Paste 是一款面向学术写作场景的 macOS 轻量级剪贴板格式清理工具。**
 
-普通粘贴往往会保留太多来源格式，例如字体、字号、颜色和高亮；而纯文本粘贴又经常删得太彻底，把论文写作中仍然有意义的 *斜体*、**粗体强调** 和超链接一起删除。
+普通粘贴往往会保留太多来源格式，例如字体、字号、颜色和高亮；而纯文本粘贴又经常删得太彻底，把论文写作中仍然有意义的 *斜体*、**粗体强调** 和[超链接](#how-it-works-zh)一起删除。
 
-Social Science Paste 的核心区别是：你可以分别选择是否保留 **粗体**、*斜体* 和 <u>超链接</u>。三个选项彼此独立，可以任意组合。
+Social Science Paste 的核心区别是：你可以分别选择是否保留 **粗体**、*斜体* 和 [超链接](#how-it-works-zh)。三个选项彼此独立，可以任意组合。
 
-- **粗体** — 开 / 关
-- *斜体* — 开 / 关
-- [超链接](https://github.com/warvantage/social-science-paste) — on / off
+- **粗体 Bold** — 开 / 关
+- *斜体 Italic* — 开 / 关
+- [超链接 Hyperlinks](#how-it-works-zh) — 开 / 关
 - 暂停 / 恢复 — 需要暂时保留原始复制内容时，可以随时停止剪贴板清理
 - 登录时自动启动
 - 语言 — 界面目前提供中文和英文两种选择
 - 继续使用正常的 `⌘V`
 - 所有剪贴板处理都在本机完成
 
-## 为什么使用 Social Science Paste？
+## 为什么叫 Social Science Paste？
 
 社科学术写作经常需要在网页、AI 工具、Word、协作文档、PPT 和邮件之间移动文字。真正需要留下的往往是有意义的格式——例如书名斜体、强调和引用链接；而来源字体、字号、颜色和高亮通常只是视觉样式。
 
@@ -147,6 +138,7 @@ Social Science Paste 就来自这个很小、但非常反复出现的写作痛�
 
 > **保留意义，清理呈现。**
 
+<a id="how-it-works-zh"></a>
 ## 它是怎么工作的？
 
 Social Science Paste 常驻在 macOS 菜单栏中，并在复制文字后自动处理剪贴板。
@@ -156,7 +148,7 @@ Social Science Paste 常驻在 macOS 菜单栏中，并在复制文字后自动�
 </p>
 
 1. 正常复制文字。Social Science Paste 会检测新的剪贴板内容，并在后台进行清理。
-2. 选择需要保留的格式。**粗体**、*斜体* 和 <u>超链接</u> 三个选项彼此独立，可以任意组合。
+2. 选择需要保留的格式。**粗体**、*斜体* 和 [超链接](#how-it-works-zh) 三个选项彼此独立，可以任意组合。
 3. 继续正常使用 `⌘V` 粘贴。目标软件仍然使用自己的原生粘贴命令。
 4. 需要时随时暂停。暂停后，新的复制内容会保持原样；恢复后，只处理之后的新复制内容。
 
@@ -183,19 +175,11 @@ Social Science Paste 常驻在 macOS 菜单栏中，并在复制文字后自动�
 
 ## 下载
 
-### v1.0.0（Stable）
+### v1.0.2-beta（HTML Rich Text）
 
-稳定基础版本，适用于一般文本和富文本剪贴板清理，并支持独立选择保留粗体、斜体和超链接。
+当前 Beta 版本进一步改善了从网页渲染内容复制富文本时的处理，包括 GitHub README 等场景，并包含此前针对 Microsoft Word / Office 的兼容性改进。
 
-**[下载 Social-Science-Paste-1.0.0.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.0/Social-Science-Paste-1.0.0.dmg)**
-
-### v1.0.1-beta（Word Compatibility）
-
-进一步增强了从 Microsoft Word 和 Office 应用复制文字时的兼容性。
-
-**[下载 Social-Science-Paste-1.0.1-beta.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.1-beta/Social-Science-Paste-1.0.1-beta.dmg)**
-
-如果你经常使用 Microsoft Word，建议优先尝试 Beta 版本。
+**[下载 Social-Science-Paste-1.0.2-beta.dmg](https://github.com/warvantage/social-science-paste/releases/download/v1.0.2-beta/Social-Science-Paste-1.0.2-beta.dmg)**
 
 > 当前版本尚未使用 Apple Developer ID 进行 notarisation。如果 macOS 第一次启动时阻止打开，请前往 **系统设置 → 隐私与安全性 → 仍要打开（Open Anyway）**。
 
