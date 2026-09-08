@@ -1,0 +1,5 @@
+dist/
+.build/
+.DS_Store
+*.dmg
+*.dmg.sha256
