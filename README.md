@@ -100,12 +100,6 @@ When Social Science Paste handles a text item, it rebuilds a cleaned clipboard r
 - Apple Silicon Mac (M1 or later)
 - macOS 11 Big Sur or later
 
-## Build from source
-
-```bash
-bash build-local.sh
-```
-
 ## Feedback and contributions
 
 Bug reports, compatibility feedback, and pull requests are welcome. If you encounter unexpected behaviour, please open a GitHub Issue and include the source application, destination application, and a short example of the copied content when possible.
@@ -193,12 +187,6 @@ Social Science Paste 常驻在 macOS 菜单栏中，并在复制文字后自动�
 
 - Apple Silicon Mac（M1 或更新）
 - macOS 11 Big Sur 或更新版本
-
-## 从源码构建
-
-```bash
-bash build-local.sh
-```
 
 ## 反馈与贡献
 
